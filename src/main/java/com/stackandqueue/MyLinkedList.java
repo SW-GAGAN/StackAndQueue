@@ -108,7 +108,7 @@ public class MyLinkedList {
         while (tempNode.getNext() != null) {
             myNodes.append(tempNode.getKey());
             if (!tempNode.equals(tail)) myNodes.append("->");
-            tempNode = tempNode.getNext();
+        tempNode = tempNode.getNext();
         }
         myNodes.append(tempNode.getKey());
         System.out.println(myNodes);

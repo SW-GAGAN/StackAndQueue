@@ -6,7 +6,7 @@ public class MyNode<K> implements INode<K> {
 
     public MyNode(K key) {
         this.key = key;
-        this.next = null;
+        this.next = null;}
     }
 
     @Override
