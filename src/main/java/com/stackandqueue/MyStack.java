@@ -15,10 +15,15 @@ public class MyStack {
         myLinkedList.printMyNodes();
     }
 
+    /* @Description- it is used to peak  the element from the stack.*/
     public INode peak() {
         return myLinkedList.head;
     }
-}
 
+    /* @Description- it is used to pop the element.*/
+    public INode pop() {
+        return myLinkedList.pop();
+    }
+}
 
 
